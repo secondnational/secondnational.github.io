@@ -282,20 +282,20 @@
                     <p>
                         Please contact us using contact form below.
                     </p>
-                    <form class="contact-form" action="https://formspree.io/your@email.com" method="POST">
+                    <form class="contact-form" autocomplete="on">
                         <fieldset class="contact-form-wrap">
                             <legend class="sr">Contact Us</legend>
                             <div class="pad-top-5 pad-bottom-5">
                                 <label class="sr" for="name">Name</label>
-                                <input name="name" class="field" id="name" type="text" placeholder="Name">
+                                <input name="name" class="field" id="name" type="text" placeholder="Name" required>
                             </div>
                             <div class="pad-top-5 pad-bottom-5">
                                 <label class="sr" for="email">Email</label>
-                                <input name="email" class="field" id="email" type="email" placeholder="Email">
+                                <input name="email" class="field" id="email" type="email" placeholder="Email" required>
                             </div>
                             <div class="pad-top-5 pad-bottom-5">
                                 <label class="sr" for="subject">Subject</label>
-                                <input name="subject" class="field" id="subject" type="text" placeholder="Subject">
+                                <input name="subject" class="field" id="subject" type="text" placeholder="Subject" required>
                             </div>
                             <div class="pad-top-5 pad-bottom-5">
                                 <label for="message" class="sr">Message</label>
