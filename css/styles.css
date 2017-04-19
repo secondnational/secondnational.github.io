@@ -1499,13 +1499,13 @@ html input[disabled] {
 
 .heading {
   text-transform: uppercase;
-  color: #fe504f; }
+  color: #6599FF; }
   .heading:after {
     content: "";
     display: block;
     width: 40px;
     height: 3px;
-    background: #fe504f;
+    background: #6599FF;
     margin-top: 5px;
     margin-bottom: 20px; }
 
@@ -1517,7 +1517,7 @@ html input[disabled] {
   transition: all .2s; }
   .field:focus {
     outline: 0;
-    border-color: #fe504f; }
+    border-color: #6599FF; }
 
 .button {
   font-size: 20px;
@@ -1528,7 +1528,7 @@ html input[disabled] {
   padding: 1em 2.8em;
   text-decoration: none;
   border: 1px solid transparent;
-  background: #fe504f;
+  background: #6599FF;
   -webkit-transition: all .2s;
   transition: all .2s;
   font-weight: 400;
@@ -1542,8 +1542,8 @@ html input[disabled] {
     top: 1px; }
 
 .button-primary:hover {
-  background: #fe504f;
-  background: rgba(254, 80, 79, 0.8); }
+  background: #6599FF;
+  background: rgba(101, 153, 255, 0.8); }
 
 .button-secondary {
   background: #343434;
@@ -1561,8 +1561,8 @@ html input[disabled] {
   -webkit-transition: all .2s;
   transition: all .2s; }
   .button-play:hover {
-    background: #fe504f;
-    background: rgba(254, 80, 79, 0.8); }
+    background: #6599FF;
+    background: rgba(101, 153, 255, 0.8); }
   .button-play:before {
     content: "";
     color: #fff;
@@ -1690,7 +1690,7 @@ html input[disabled] {
     opacity: .8; }
 
 .banner {
-  background: url(../img/pump.JPG) 0 0 no-repeat;
+  background: url(../img/pump.jpg) 0 0 no-repeat;
   background-size: cover; }
   .banner:after {
     position: relative;
@@ -1923,14 +1923,14 @@ html input[disabled] {
             transition: all .1s;
             width: 0px;
             height: 3px;
-            background: #fe504f;
+            background: #6599FF;
             content: "";
             display: block;
             bottom: 0;
             left: 50%;
             position: absolute; } }
       .navigation-menu .navigation-item > a:hover, .navigation-menu .navigation-item > a.active {
-        color: #fe504f; }
+        color: #6599FF; }
         @media only screen and (min-width: 740px) {
           .navigation-menu .navigation-item > a:hover, .navigation-menu .navigation-item > a.active {
             color: #fff; }
@@ -1977,7 +1977,7 @@ html input[disabled] {
     content: "";
     width: 60px;
     height: 3px;
-    background: #fe504f;
+    background: #6599FF;
     margin-top: 4px;
     margin-bottom: 5px;
     display: block;
@@ -1991,7 +1991,7 @@ html input[disabled] {
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
-  border: 3px solid #fe504f;
+  border: 3px solid #6599FF;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto; }
@@ -2040,7 +2040,7 @@ html input[disabled] {
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #212121; }
+  background: #097054; }
 
 .contact-feature-block.active .feature-block-heading {
   -webkit-animation-duration: 1s;
@@ -2078,14 +2078,11 @@ html input[disabled] {
   -webkit-animation-delay: .4s;
           animation-delay: .4s; }
 
-.about-block .content-block-inner .list {
-  list-style-type: none; }
-
 .video-feature-block {
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #212121; }
+  background: #097054; }
   .video-feature-block .content-block-inner p {
     color: #fff; }
 
@@ -2130,14 +2127,14 @@ html input[disabled] {
   .contact-list li {
     margin: 20px 0; }
   .contact-list a {
-    color: #212121;
+    color: #097054;
     text-decoration: none; }
     .contact-list a:hover {
       text-decoration: underline; }
 
 .contact-block {
   background-size: cover;
-  color: #212121; }
+  color: #097054; }
   @media only screen and (min-width: 740px) {
     .contact-block {
       margin-bottom: 0; } }
@@ -2171,7 +2168,7 @@ html input[disabled] {
     border: 0;
     width: 30px;
     height: 30px;
-    border: 2px solid #fe504f;
+    border: 2px solid #6599FF;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -2211,7 +2208,7 @@ html input[disabled] {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #fff;
-  background: #212121;
+  background: #097054;
   text-transform: uppercase;
   font-weight: 700; }
   .footer p {
@@ -2232,7 +2229,7 @@ html input[disabled] {
       margin-top: 0;
       text-align: right; } }
   .icon-list-inline li {
-    border-left: 1px solid #fe504f;
+    border-left: 1px solid #6599FF;
     padding-left: 15px;
     margin-left: 10px;
     display: inline-block; }
