@@ -1690,7 +1690,7 @@ html input[disabled] {
     opacity: .8; }
 
 .banner {
-  background: url(../img/pump.jpg) 0 0 no-repeat;
+  background: url(./img/pump.jpg) 0 0 no-repeat;
   background-size: cover; }
   .banner:after {
     position: relative;
